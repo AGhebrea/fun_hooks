@@ -29,8 +29,6 @@ unsigned char trampBytes[2 * PATCHBYTESLEN] = {0};
 
 fun_ptr_t trampFunPtr;
 
-int ORIG_BYTES_VALID = 0;
-
 void installPatch();
 void updatePatch(unsigned char *, void *, size_t);
 void hookDisplayMessage();
