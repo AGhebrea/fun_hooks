@@ -43,7 +43,7 @@ int main()
 void hookDisplayMessage()
 {
 	uninstallPatch();
-	displayMessage("hooker executed");
+	displayMessage("hooked");
 	installPatch();
 	return;
 }

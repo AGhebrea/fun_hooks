@@ -54,7 +54,7 @@ int main()
 void hookDisplayMessage()
 {
 	printf("\nDo whatever. . .");
-	trampFunPtr("\nHooker executed");
+	trampFunPtr("\nhooked");
 	return;
 }
 
